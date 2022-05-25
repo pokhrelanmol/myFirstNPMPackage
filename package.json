@@ -1,0 +1,31 @@
+{
+    "name": "anmol-colorify",
+    "version": "1.0.0",
+    "description": "A Library to colorify console log",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pokhrelanmol/myFirstNPMPackage.git"
+    },
+    "keywords": [
+        "console colors",
+        "colorsfull console log"
+    ],
+    "author": "Anmol Pokhrel",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pokhrelanmol/myFirstNPMPackage/issues"
+    },
+    "homepage": "https://github.com/pokhrelanmol/myFirstNPMPackage#readme",
+    "devDependencies": {
+        "typescript": "^4.7.2"
+    },
+    "files": [
+        "lib/**/*"
+    ]
+}
